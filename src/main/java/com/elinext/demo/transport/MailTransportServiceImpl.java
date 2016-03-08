@@ -19,7 +19,7 @@ public class MailTransportServiceImpl implements MailTransportService {
 	private Session session;
 
 	public MailTransportServiceImpl() {
-		Properties props = new Properties();
+		final Properties props = new Properties();
 		try {
 			props.load(getClass().getResourceAsStream("/mailTransport.properties"));
 		} catch (IOException e) {
