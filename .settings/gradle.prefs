@@ -1,8 +1,8 @@
 {
   "1.0": {
     "project_path": ":",
-    "project_dir": "D:\\work\\eclipse-jee-mars-workspace\\test-project-01",
-    "connection_project_dir": "D:\\work\\eclipse-jee-mars-workspace\\test-project-01",
+    "project_dir": "/home/dev/git/test-project-01",
+    "connection_project_dir": "/home/dev/git/test-project-01",
     "connection_gradle_user_home": null,
     "connection_gradle_distribution": "GRADLE_DISTRIBUTION(WRAPPER)",
     "connection_java_home": null,

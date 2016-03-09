@@ -58,5 +58,20 @@ Mock data containing 1000 user records
 
 ### Building and Running
 
+##### UNIX
+
 * `./gradlew clean build` - build application 
 * `./gradlew test` - run unit-tests
+
+##### Windows
+
+* `gradlew.bat clean build` - build application 
+* `gradlew.bat test` - run unit-tests
+
+### Developer environment
+
+* Eclipse Mars IDE (v4.5.2)
+* Gradle Build Tool (v2.11)
+
+### Things TO DO
+* Exception handling - in case of any procesing error (during parsing or email sending) if exception is thrown, it is not poping up on top of `ExecutorService`. Implementation detail depends on detailed requirements.
